@@ -13,6 +13,20 @@ class ViewController: UIViewController {
     var currentAnimation = 0
     
     @IBAction func tapped(_ sender: UIButton) {
+        tap.isHidden = true
+        
+        UIView.animate(withDuration: 1, delay: 0, options: [],
+                       animations: { [unowned self] in
+                        switch self.currentAnimation {
+                        case 0:
+                            break
+                        default:
+                            break
+                        }
+        }) { [unowned self] (finished: Bool) in
+            self.tap.isHidden = false
+        }
+        
         currentAnimation += 1
         
         if currentAnimation > 7 {
@@ -34,7 +48,6 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
 
 }
 
