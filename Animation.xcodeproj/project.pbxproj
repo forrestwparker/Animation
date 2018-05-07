@@ -12,6 +12,7 @@
 		6F2ED1A720A10C2100DEA6E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F2ED1A520A10C2100DEA6E5 /* Main.storyboard */; };
 		6F2ED1A920A10C2200DEA6E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F2ED1A820A10C2200DEA6E5 /* Assets.xcassets */; };
 		6F2ED1AC20A10C2200DEA6E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F2ED1AA20A10C2200DEA6E5 /* LaunchScreen.storyboard */; };
+		6F2ED1B420A10C8000DEA6E5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6F2ED1B320A10C8000DEA6E5 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		6F2ED1A820A10C2200DEA6E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F2ED1AB20A10C2200DEA6E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F2ED1AD20A10C2200DEA6E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F2ED1B320A10C8000DEA6E5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		6F2ED19520A10C2100DEA6E5 = {
 			isa = PBXGroup;
 			children = (
+				6F2ED1B320A10C8000DEA6E5 /* README.md */,
 				6F2ED1A020A10C2100DEA6E5 /* Animation */,
 				6F2ED19F20A10C2100DEA6E5 /* Products */,
 			);
@@ -124,6 +127,7 @@
 			files = (
 				6F2ED1AC20A10C2200DEA6E5 /* LaunchScreen.storyboard in Resources */,
 				6F2ED1A920A10C2200DEA6E5 /* Assets.xcassets in Resources */,
+				6F2ED1B420A10C8000DEA6E5 /* README.md in Resources */,
 				6F2ED1A720A10C2100DEA6E5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,7 +293,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.forrestwparker.Animation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -306,7 +310,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.forrestwparker.Animation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
